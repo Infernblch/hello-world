@@ -1,0 +1,75 @@
+﻿body {
+	padding: 0px;
+	margin: 0px;
+}
+
+.container {
+	display: block;
+	margin: 0 12% 0 12%;
+	min-width: 800px;
+}
+
+.header {
+	width: 100%;
+	min-width: 400px;
+	background: linear-gradient(#212020, #3a3939);
+	height: 50px;
+	display: block;
+	margin: 0px;
+
+}
+.headerinfo {
+	color: white;
+	padding: 0 0 0 50px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 11px;
+	padding-left: 80px;
+	margin: 0px;
+}
+
+.start-picture img {
+	display: block;
+	width: 40%;
+	height: 300px;
+	margin-left: 30%;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	
+}
+	
+
+.navigation {
+	display: block;
+	width: 100%;
+	min-width: 250px;
+	margin: 0px 0px 0px 0px;
+	float: left;
+	background: linear-gradient(#212020, #3a3939);
+}
+
+.navbuttons {
+	list-style-type: none;
+	margin: 0px;
+	
+	
+}
+
+.main-btn, .news-btn, .stuff-btn, .money-btn {
+	background: linear-gradient(to top, #212020, #3a3939);
+	color: white;
+	margin: 3px 0px 3px 0px;
+	padding: 6px;
+	text-align: center;
+	display: inline-block;
+	width: 100px;
+	border-right: solid 1px gray;
+	font-size: 18px;
+}
+
+.main-btn:hover, .news-btn:hover, .stuff-btn:hover, .money-btn:hover {
+	background: linear-gradient(#d69302, #efa402);
+	color: black;
+	width: 120px;
+	font-weight: bold;
+}
